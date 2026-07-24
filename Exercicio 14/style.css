@@ -1,0 +1,51 @@
+@charset "UTF";
+
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+
+    background-color: beige;
+}
+
+header{
+    
+    margin-top: 10vh;
+    font-size: 2vh;
+    text-align: center;
+    padding: 10px
+    
+}
+
+section{
+
+    background-color: gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.552);
+}
+
+div{
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    
+
+}
+
+img#foto1{
+
+  width: 300px;           /* Aumente aqui */
+  height: 300px;          /* Mantenha igual ao width */          /* Altura igual para manter o formato quadrado */
+  border-radius: 50%;     /* Deixa os cantos totalmente arredondados */
+  object-fit: cover;      /* Garante que a imagem não fique esticada ou achatada */
+}
+
+
+footer{
+    text-align: center;
+}
